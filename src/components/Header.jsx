@@ -40,9 +40,9 @@ function Header() {
 
         {/* Links - Shown as dropdown on mobile, inline on desktop */}
         <div className={`flex-col md:flex md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-6 ${isOpen ? 'flex' : 'hidden'} md:flex`}>
-          <a href="#" className="text-white block py-2 md:py-0 hover:text-gray-300">Link 1</a>
-          <a href="#" className="text-white block py-2 md:py-0 hover:text-gray-300">Link 2</a>
-          <a href="#" className="text-white block py-2 md:py-0 hover:text-gray-300">Link 3</a>
+          <a href="/" className="text-white block py-2 md:py-0 hover:text-gray-300">Link 1</a>
+          <a href="/" className="text-white block py-2 md:py-0 hover:text-gray-300">Link 2</a>
+          <a href="/" className="text-white block py-2 md:py-0 hover:text-gray-300">Link 3</a>
         </div>
       </div>
     </nav>    
